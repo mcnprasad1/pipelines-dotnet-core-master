@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  - name: demo
+- group: demo
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
